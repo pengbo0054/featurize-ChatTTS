@@ -120,6 +120,7 @@ ChatTTS是专门为对话场景设计的文本转语音模型
         # 则在调用 execute_command 时候需要传入 daemon=True，否则命令会
         # 卡住不动，self.execute_command("uvicorn app:main", shell=True)
         # TODO: 写应用启动的逻辑
+        os.environ['all_proxy'] = ''
         self.execute_command(
             f"python examples/web/webui.py --server_port {self.port}", self.cfg.source_directory, daemon=True
         )
