@@ -1,0 +1,21 @@
+[project]
+name = "chattts"
+description = "ChatTTS是专门为对话场景设计的文本转语音模型"
+authors = [{name= "Dave", email = "pengbo@featurize.ai"}]
+version = "1.0.0"
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/pengbo0054/featurize-ChatTTS"
+Documentation = "https://github.com/pengbo0054/featurize-ChatTTS/blob/main/README.md"
+Repository = "https://github.com/pengbo0054/featurize-ChatTTS"
+Changelog = "https://github.com/pengbo0054/featurize-ChatTTS/blob/main/CHANGELOG.md"
+Issues = "https://github.com/pengbo0054/featurize-ChatTTS/issues"
+
+[featurize]
+port = "24360"
+op_port = "32676"
+icon = "https://featurize-public.oss-cn-beijing.aliyuncs.com/3d-abstract-cyber-background-with-flowing-particles-design.jpg"
+author_github = "https://github.com/pengbo0054"
+name = "ChatTTS"
+newtab = false
