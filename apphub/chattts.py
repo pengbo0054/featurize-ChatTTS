@@ -105,7 +105,7 @@ ChatTTS是专门为对话场景设计的文本转语音模型
             f"git clone https://github.com/pengbo0054/ChatTTS.git"
         )
         self.execute_command(
-            "pip install -r requirements.txt", self.cfg.source_directory
+            "pip install --upgrade -r requirements.txt", self.cfg.source_directory
         )
 
         # 调用 app_installed，标准流程，该函数会通知前端安装已经完成，切换到应用的页面
